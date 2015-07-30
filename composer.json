@@ -3,7 +3,6 @@
     "description": "Yii2 viewgrid",
     "type": "yii2-extension",
     "keywords": ["yii2","viewgrid"],
-    "license": "Apache-2.0",
     "authors": [
         {
             "name": "Kyshnerev Dmitriy",
@@ -11,7 +10,8 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": ">=2.0.4"
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*"
     },
     "autoload": {
         "psr-4": {
