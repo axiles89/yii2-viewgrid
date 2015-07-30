@@ -1,0 +1,21 @@
+{
+    "name": "axiles89/yii2-viewgrid",
+    "description": "Вывод массива элементов в виде таблицы",
+    "type": "yii2-extension",
+    "keywords": ["yii2","viewgrid"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Kyshnerev Dmitriy",
+            "email": "dimkysh@mail.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "axiles89\\viewgrid\\": "lib"
+        }
+    }
+}
