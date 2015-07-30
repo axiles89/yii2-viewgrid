@@ -1,4 +1,4 @@
-yii2-viewGrid
+Yii2-viewGrid
 ========
 Вывод значения таблицы в бд в виде html-таблицы. На данный момент не учитывается пагинация.
 
@@ -33,4 +33,5 @@ php composer.phar update
 таблицу по которой нужно осуществить вывод:
 
 ```php
-<?= \axiles89\viewgrid\Axiles89Grid::widget(['db' => 'db', 'table' => 'Country']); ?>```
+<?= \axiles89\viewgrid\Axiles89Grid::widget(['db' => 'db', 'table' => 'Country']); ?>
+```
