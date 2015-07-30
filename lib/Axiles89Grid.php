@@ -13,6 +13,10 @@ use yii\db\Connection;
 use yii\db\Query;
 use yii\di\Instance;
 
+/**
+ * Class Axiles89Grid
+ * @package axiles89\viewgrid
+ */
 class Axiles89Grid extends  Widget
 {
     public $table;

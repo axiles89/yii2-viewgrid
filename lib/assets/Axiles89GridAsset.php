@@ -6,7 +6,10 @@ namespace axiles89\viewgrid\assets;
 use yii\web\AssetBundle;
 
 
-
+/**
+ * Class Axiles89GridAsset
+ * @package axiles89\viewgrid\assets
+ */
 class Axiles89GridAsset extends AssetBundle
 {
     public $sourcePath = '@vendor/axiles89/yii2-viewgrid/lib';

@@ -1,31 +1,37 @@
-ViewGrid
+yii2-viewGrid
 ========
-Вывод массива элементов в виде таблицы
+Вывод массива элементов в виде таблицы, где ключи - это названия колонок,
+а значения - это сам колонки. На данный момент не учитывается пагинация.
 
-Installation
+Инсталяция
 ------------
 
-The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
+Необходимо установить [composer](http://getcomposer.org/download/).
 
-Either run
-
-```
-php composer.phar require --prefer-dist axiles89/yii2-viewgrid "*"
-```
-
-or add
+Затем выполнить
 
 ```
-"axiles89/yii2-viewgrid": "*"
+php composer.phar require axiles89/yii2-viewgrid:dev-master
 ```
 
-to the require section of your `composer.json` file.
+или включить файл сразу в зависимости `composer.json` файла
+
+```
+"axiles89/yii2-viewgrid": "dev-master"
+```
+
+и обновить composer
+
+```
+php composer.phar update
+```
 
 
-Usage
+Использование
 -----
 
-Once the extension is installed, simply use it in your code by  :
+Виджету необходимо передавать название компонента базы данных (по умолчанию db) и
+таблицу по которой нужно осуществить вывод:
 
 ```php
-<?= \axiles89\viewgrid\AutoloadExample::widget(); ?>```
+<?= \axiles89\viewgrid\Axiles89Grid::widget(['db' => 'db', 'table' => 'Country']); ?>```
