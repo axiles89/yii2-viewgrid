@@ -9,7 +9,7 @@ use yii\web\AssetBundle;
 
 class Axiles89GridAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/axiles89/viewgrid';
+    public $sourcePath = '@vendor/axiles89/yii2-viewgrid';
 
     /**
      * Установили опцию принудительного обновления asset при перезагрузке
